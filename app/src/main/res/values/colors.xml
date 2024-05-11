@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Color -->
+    <color name="Primary">#BED4FF</color>
+
+    <!-- Secondary Color -->
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Accent Colors -->
+    <color name="black">#FF000000</color>
+    <color name="red">#BB0000</color>
+    <color name="Secondary">#FF031C68</color>
+    <color name="colorPrimaryDark">#111B49</color>
+    <color name="darktransparent">#55000000</color>
+    <color name="hintpurp">#805D009F</color>
+    <color name="blue">#FF0F00E6</color>
+    <color name="eventListColor">#FFBEC8FF</color>
+    <color name="backgroundTintMain">#72000000</color>
+    <color name="backgroundTintForm">#BEBED4FF</color>
+
+</resources>

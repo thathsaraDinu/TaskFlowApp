@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/backgroundTintMain"
+    android:backgroundTintMode="src_atop"
+    android:background="@drawable/backimage"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="AddTaskActivity">
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/darktransparent"
+        android:fontFamily="serif"
+        android:gravity="center_vertical"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        tools:ignore="RtlCompat" />
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginHorizontal="30dp">
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:text="New Task"
+            android:textSize="30sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTitle"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint="Enter the Title"
+            android:background="@drawable/rounded_edittext_bg"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:textColorHint="@color/hintpurp" />
+
+        <EditText
+            android:id="@+id/textDesc"
+            android:background="@drawable/rounded_edittext_bg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textName"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="start"
+            android:hint="Enter the Description"
+            android:padding="10dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:textColorHint="@color/hintpurp" />
+
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textDesc"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:text="Save"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_background_button"
+
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
