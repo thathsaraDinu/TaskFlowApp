@@ -5,6 +5,7 @@
 
     <!-- Secondary Color -->
     <color name="white">#FFFFFFFF</color>
+    <color name="whiteTransparent">#88FFFFFF</color>
 
     <!-- Accent Colors -->
 

@@ -8,13 +8,17 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
 class TasksAdapter(private var tasks: List<TaskData>, context: Context) : RecyclerView.Adapter<TasksAdapter.TaskViewHolder>() {
+    private val db: TaskDatabaseHelper = TaskDatabaseHelper(context)
     class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val cardName: TextView = itemView.findViewById(R.id.cardName)
         val cardDesc: TextView = itemView.findViewById(R.id.cardDesc)
         val updateButton: Button = itemView.findViewById(R.id.editBtn)
+        val deleteButton: Button = itemView.findViewById(R.id.deleteBtn)
+
 
     }
 
@@ -31,6 +35,12 @@ class TasksAdapter(private var tasks: List<TaskData>, context: Context) : Recycl
             val intent = Intent(holder.itemView.context, UpdateTaskActivity::class.java)
             intent.putExtra("task_id", task.id)
             holder.itemView.context.startActivity(intent)
+        }
+
+        holder.deleteButton.setOnClickListener {
+            db.deleteTask(task.id)
+            refreshTaskData(db.getAllTasks())
+            Toast.makeText(holder.itemView.context,"Task Successfully Deleted" , Toast.LENGTH_SHORT).show()
         }
     }
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Task Flow</string>
+    <string name="app_name">Task Flow App</string>
     <string name="addTask">Let\'s add a Task!</string>
     <string name="addTaskInfo">You can start by tapping the (+) button down there.</string>
 
