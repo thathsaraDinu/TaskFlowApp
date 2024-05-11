@@ -17,7 +17,7 @@ class AddTaskActivity : AppCompatActivity() {
         db = TaskDatabaseHelper(this)
 
         binding.saveBtn.setOnClickListener {
-            val title = binding.textTitle.text.toString()
+            val title = binding.textName.text.toString()
             val content = binding .textDesc.text.toString()
             val taskData = TaskData(0, title,content)
             db.insertTask(taskData)

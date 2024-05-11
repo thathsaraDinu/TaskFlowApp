@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary Color -->
-    <color name="Primary">#BED4FF</color>
+    <color name="Primary">#BFCADBFD</color>
 
     <!-- Secondary Color -->
     <color name="white">#FFFFFFFF</color>
 
     <!-- Accent Colors -->
+
+    <color name="gray">#A9A9A9</color>
     <color name="black">#FF000000</color>
     <color name="red">#BB0000</color>
+    <color name="lightRed">#ffcccb</color>
+    <color name="green">#009E60</color>
+    <color name="lightGreen">#90EE90</color>
     <color name="Secondary">#FF031C68</color>
     <color name="colorPrimaryDark">#111B49</color>
     <color name="darktransparent">#55000000</color>

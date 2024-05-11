@@ -27,18 +27,13 @@
         tools:ignore="RtlCompat" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:paddingHorizontal="30dp"
+        android:paddingHorizontal="20dp"
         android:paddingVertical="10dp"
         android:layout_below="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/todoListRecyclerView"
+        android:id="@+id/taskRecyclerView"
         />
-
-
-
-
-
     <pl.droidsonroids.gif.GifImageView
 
         android:id="@+id/imageAdd"
