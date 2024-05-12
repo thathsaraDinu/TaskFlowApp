@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/jost_semibold"
             android:padding="10dp"
-            android:text="New Task"
+            android:text="@string/new_task"
             android:textColor="@color/white"
             android:textSize="30sp">
 
@@ -53,7 +53,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="sans-serif-condensed-medium"
-            android:hint="Enter the Title"
+            android:hint="@string/enter_the_title"
             android:background="@drawable/rounded_edittext_bg"
             android:paddingHorizontal="10dp"
             android:paddingVertical="10dp"
@@ -70,7 +70,7 @@
             android:layout_marginEnd="10dp"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="start"
-            android:hint="Enter the Description"
+            android:hint="@string/enter_the_description"
             android:textSize="22sp"
             android:padding="10dp"
             android:paddingHorizontal="10dp"
@@ -86,7 +86,7 @@
             android:background="@drawable/rounded_background_button"
             android:fontFamily="@font/jost"
             android:textSize="16sp"
-            android:text="Save"
+            android:text="@string/save"
             android:textStyle="bold">
 
         </Button>

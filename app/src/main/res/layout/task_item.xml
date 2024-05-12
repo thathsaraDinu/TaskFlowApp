@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/jost_bold"
-                android:text="Card Name"
+                android:text="@string/card_name"
                 android:textColor="@color/Secondary"
                 android:textSize="22sp" />
 
@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/jost"
-                android:text="Card Description"
+                android:text="@string/card_description"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
         </LinearLayout>
@@ -57,7 +57,7 @@
                 android:layout_marginVertical="2dp"
                 android:background="@drawable/rounded_background_edit"
                 android:fontFamily="@font/jost"
-                android:text="Edit" />
+                android:text="@string/edit" />
 
             <Button
                 android:id="@+id/deleteBtn"
@@ -68,7 +68,7 @@
 
                 android:background="@drawable/rounded_background_delete"
                 android:fontFamily="@font/jost"
-                android:text="Delete" />
+                android:text="@string/delete" />
         </LinearLayout>
     </LinearLayout>
 

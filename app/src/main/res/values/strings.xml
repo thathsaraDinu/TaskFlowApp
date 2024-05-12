@@ -2,5 +2,15 @@
     <string name="app_name">Tasks Flow</string>
     <string name="addTask">Let\'s add a Task!</string>
     <string name="addTaskInfo">You can start by tapping the (+) button down there.</string>
+    <string name="enter_the_description">Enter the Description</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="enter_the_title">Enter the Title</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="card_name">Card Name</string>
+    <string name="card_description">Card Description</string>
+    <string name="new_task">New Task</string>
+    <string name="save">Save</string>
 
 </resources>
