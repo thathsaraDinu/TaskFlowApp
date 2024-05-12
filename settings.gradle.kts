@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TaskFlowApp"
+rootProject.name = "TasksFlowApp"
 include(":app")
  
